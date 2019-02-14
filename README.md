@@ -1,4 +1,4 @@
-# my small progress bar demo
+# My Small Progress Bar Demo
 
 1, Open the project, npm install & npm start
 
@@ -9,3 +9,12 @@
 4, I write some test cases in spec.ts
 
 5, I will contine improving it
+
+
+
+![enter image description here](https://github.com/VickyFengYu/angular-progress-bar/blob/master/progress_bar_demo.jpg?raw=true)	
+
+
+
+
+
