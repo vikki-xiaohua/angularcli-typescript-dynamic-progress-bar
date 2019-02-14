@@ -1,0 +1,42 @@
+<html>
+
+<head>
+</head>
+
+<body style="text-align:center;">
+  <div style="margin-right:auto;margin-left:auto;">
+    <br />
+    <br />
+
+    <ng-container style="text-align:center;" *ngFor="let barObject of barObjects; let i = index">
+      <ngb-progressbar [showValue]="true" [max]="limit" [type]="barObject.barType" [value]="barObject.barSize" animate="true"
+        style="background-color:#6c757d">
+        {{barObject.barSize}}
+      </ngb-progressbar>
+      <hr>
+    </ng-container>
+
+    <hr>
+
+    <div>
+      <label style="background-color: #17a2b8; padding: 10px;"> Select Progress Bar Number: </label>
+      <select class="custom-select" (change)="selectProgressBar($event.target.value)">
+        <option value="0">--Select Progress Bar--</option>
+        <option *ngFor="let bar of bars; let i = index" value={{i}}>
+          {{i}}
+        </option>
+      </select>
+    </div>
+
+    <br>
+
+    <ng-container *ngFor="let button of buttons; let i = index">
+      <button style="background-color: #6c757d; width: 110px" type="button" class="btn btn-primary" (click)="playProgressButton(i)"
+        label=""> {{button}}
+      </button>&nbsp;&nbsp;&nbsp;
+    </ng-container>
+
+  </div>
+</body>
+
+</html>
