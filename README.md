@@ -1,4 +1,4 @@
-# My Small Progress Bar Demo
+# My Dynamic Small Progress Bar Demo
 
 1, Open the project, npm install & npm start
 
