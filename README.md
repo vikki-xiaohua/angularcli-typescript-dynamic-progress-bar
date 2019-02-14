@@ -6,7 +6,7 @@
 
 3, Then have fun
 
-4, I write some test cases in spec.ts
+4, I write some simple test cases in spec.ts
 
 5, I will contine improving it
 
