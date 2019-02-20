@@ -1,6 +1,6 @@
 # My Small Dynamic Progress Bar Demo
 
-The number and value of bars and progress button are all gotten from backend API, so they are all dynamic. 
+The number and value of bars and progress buttons are all gotten from backend API, so they are all dynamic. 
 
 You need to select one bar and controll its progress with the button below, the value may increase or decrease, according to the value shown on the button.
 
