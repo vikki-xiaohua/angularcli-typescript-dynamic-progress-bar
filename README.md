@@ -6,6 +6,7 @@ You need to select one bar and controll its progress with the button below, the 
 
 The is also a limit data returned from backend API, if the bar's value go up the limit, it will change its color to red
 
+##
 
 1, Open the project, npm install & npm start
 
