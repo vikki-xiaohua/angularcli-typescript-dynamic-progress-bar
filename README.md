@@ -2,7 +2,7 @@
 
 The number and value of bars and progress buttons are all gotten from **Backend API**, so they are all dynamic. 
 
-You need to select one bar and controll its progress with the button below, the value may increase or decrease, according to the value shown on the button.
+You need to select one bar and control its progress with the button below, the value may increase or decrease, according to the value shown on the button.
 
 The is also a limit data returned from **Backend API**, if the bar's value go up the limit, it will change its color to red
 
