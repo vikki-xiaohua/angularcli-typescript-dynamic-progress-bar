@@ -1,10 +1,10 @@
 # My Small Dynamic Progress Bar Demo
 
-The number and value of bars and progress buttons are all gotten from backend API, so they are all dynamic. 
+The number and value of bars and progress buttons are all gotten from **backend API**, so they are all dynamic. 
 
 You need to select one bar and controll its progress with the button below, the value may increase or decrease, according to the value shown on the button.
 
-The is also a limit data returned from backend API, if the bar's value go up the limit, it will change its color to red
+The is also a limit data returned from **backend API**, if the bar's value go up the limit, it will change its color to red
 
 ##
 
@@ -17,6 +17,7 @@ The is also a limit data returned from backend API, if the bar's value go up the
 4, I write some simple test cases in spec.ts
 
 5, I will contine improving it
+
 
 
 
