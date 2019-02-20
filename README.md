@@ -1,5 +1,12 @@
 # My Small Dynamic Progress Bar Demo
 
+The buttons, bars, and progress are all gotten from backend API, so they are all dynamic. 
+
+You need to select one bar and controll its progress with the button below, the value may increse or decrese, according to the number on the button.
+
+The is also a limit data returned from backend API, if the bar value go up the limit, it will change its color to red
+
+
 1, Open the project, npm install & npm start
 
 2, Type http://localhost:4200/ in the browser
